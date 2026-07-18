@@ -1237,3 +1237,28 @@ section { padding: 100px 0; }
   border: 2px solid var(--gold);
   flex-shrink: 0;
 }
+/* --- TEACHER PHOTOS --- */
+.teacher-photo {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 16px;
+  border: 2px solid var(--teal);
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.teacher-card:hover .teacher-photo {
+  transform: scale(1.15);
+  border-color: var(--blue-mid);
+}
+
+.headmaster-photo {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--gold);
+  flex-shrink: 0;
+}
