@@ -1228,3 +1228,12 @@ section { padding: 100px 0; }
   .achievement-cards { grid-template-columns: 1fr; }
   .alumni-grid { grid-template-columns: 1fr 1fr; }
 }
+/* --- LOGO IMAGE --- */
+.logo-img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--gold);
+  flex-shrink: 0;
+}
